@@ -1,0 +1,14 @@
+@import url('../themes/themesStyles.css');
+
+.aside_main {
+    position: sticky;
+    top: 15%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.aside_main ul li a{
+    color: var(--second-color);
+}
+

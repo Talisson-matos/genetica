@@ -1,0 +1,26 @@
+@import url('../../styles/themes/themesStyles.css');
+
+.field_input {
+    padding: 6px;
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 6px;
+    outline: 2px solid var(--second-color);
+    outline-offset: 4px;
+}
+
+.field_input input {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    outline: none;    
+    border: none;
+    background-color: var(--second-color);
+}
+
+.search {
+    font-size: 1.4em;
+    color: var(--primary-color);
+}

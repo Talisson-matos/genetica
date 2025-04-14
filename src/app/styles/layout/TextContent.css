@@ -1,0 +1,127 @@
+@import url('../themes/themesStyles.css');
+@import url('../utils/_tipographic.css');
+
+
+.text_main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside_main ul li a.active {
+    color: var(--second-color);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.aside_main ul ul li a {
+    margin-left: 1.5rem;
+    font-style: italic;
+
+}
+
+.aside_mobile {
+    display: none;
+}
+
+.over_canvas {
+    display: none;
+
+}
+
+.container_main {
+    width: 500px;
+
+
+
+}
+
+.content {
+    width: 100%;
+    padding: 2rem 3rem;
+    text-align: justify;
+    color: var(--second-color);
+    font-family: var(--font-roboto);
+
+}
+
+span {
+    display: block;
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.2em;
+
+}
+
+li {
+    margin: 1.2rem 0;
+
+}
+
+
+
+@media (max-width:992px) {
+    .text_main {
+        width: 100%;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container_main {
+        display: none;
+    }
+
+    .over_canvas {
+        display: block;
+        position: fixed;
+        border-radius: 6px;
+        padding: 6px;
+        z-index: 99;
+        left: 0;
+        top: 30px;
+        margin: 1rem;
+        background: transparent;
+        color: var(--second-color);
+        border-color: var(--second-color);
+    }
+
+    .aside_mobile {
+        display: block;
+        padding: 0 10px;
+        font-size: 12px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 60%;
+        height: 110vh;
+        background-color: var(--primary-color);
+        border-right: 2px solid var(--second-color);
+        transition: left 0.3s ease;
+        z-index: 98;
+
+    }
+
+    .aside_mobile.open {
+        left: 0;
+
+        /* Slide in when open */
+    }
+}
+
+@media (min-width: 769px) {
+    .aside_mobile {
+        display: none;
+    }
+
+    .over_canvas {
+        display: none;
+    }
+}

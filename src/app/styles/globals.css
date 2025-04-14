@@ -1,0 +1,24 @@
+@import url('../styles/themes/themesStyles.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100%;
+}
+
+body{
+    background-color: var(--third-color);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+

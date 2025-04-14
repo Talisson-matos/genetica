@@ -1,0 +1,15 @@
+/* tema claro */
+
+:root {
+    --primary-color: #9F7BB4;
+    --second-color: #5A3B6E;
+    --third-color: #C5A9E2;
+}
+
+/* tema escuro */
+
+.dark {
+    --primary-color: #432557;
+    --second-color: #C5A9E2;
+    --third-color: #5A3B6E;
+}

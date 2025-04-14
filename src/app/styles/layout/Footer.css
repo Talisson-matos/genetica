@@ -1,0 +1,15 @@
+@import url('../themes/themesStyles.css');
+
+footer{
+    height: 60px;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+}
+
+.container_footer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
