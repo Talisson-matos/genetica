@@ -61,6 +61,13 @@ li {
 
 }
 
+.spinner{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 
 
 @media (max-width:992px) {

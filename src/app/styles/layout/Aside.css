@@ -1,4 +1,6 @@
 @import url('../themes/themesStyles.css');
+@import url('../utils/_tipographic.css');
+
 
 .aside_main {
     position: sticky;
@@ -10,5 +12,6 @@
 
 .aside_main ul li a{
     color: var(--second-color);
+    font-family: var(--font-libre);
 }
 
