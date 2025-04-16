@@ -2,9 +2,10 @@
 @import url('../utils/_tipographic.css');
 
 footer{
-    height: 60px;
+    height: 100px;
     background-color: var(--primary-color);
-    color: var(--second-color);
+    color: var(--second-color);   
+    margin-top: 1rem;
 }
 
 .container_footer{

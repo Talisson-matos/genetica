@@ -214,7 +214,7 @@ Caso tenha dúvidas, entre em contato conosco por e-mail : talissonmatos23@gmai.
 
 Nosso muito obrigado a todos que contribuíram e apoiaram este projeto! Sua ajuda foi fundamental.
 
-**&copy 2025 Sempre a procura do desenvolvimento e melhorias.**
+**&copy; 2025 Sempre a procura do desenvolvimento e melhorias.**
 
 
 
