@@ -4,11 +4,7 @@ import { Footer } from '@/components/Footer';
 import { Aside } from '@/components/Aside';
 import  TextContent  from '@/components/TextContent';
 
-
-
-
 export default function Home() {
- 
 
   return (
     <>     
