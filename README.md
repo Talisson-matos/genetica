@@ -27,6 +27,10 @@ Genética
 
 Este projeto foi desenvolvido utilizando linguagem typescript e framework Next.JS. Esta pronta para uso e segue as melhores práticas de desenvolvimento.
 
+**Acesse o site**
+
+https://genetica-polaris.vercel.app/
+
 ## Começando <a name="começando"></a>
 
 ### Pré-requisitos <a name="pre-requisitos"></a>
@@ -167,10 +171,14 @@ navegação e indicação aonde o usuário esta na página.
 
 ### Video ilustrativo
 
-**Para mais interesses você pode baixar por aqui este vídeo ilustrativo da aplicação ou então acessá-lo pelo You Tube no link abaixo**
+**• Para mais interesses você pode baixar por aqui este vídeo ilustrativo da aplicação ou então acessá-lo pelo You Tube no link abaixo**
 
 
 [![ You tube ](public/video_ilustrativo.mp4)](https://youtu.be/UtXMB5Cmk14)
+
+**• ou se preferir acesse o site**
+
+https://genetica-polaris.vercel.app/
 
 ## Tecnologias utilizadas <a name="tecnologias-utilizadas"></a>
 
