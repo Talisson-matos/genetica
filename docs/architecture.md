@@ -13,6 +13,7 @@ Este documento descreve a arquitetura do sistema, incluindo seus principais comp
 - **Frontend:** Interface do usuário construída com React/Next.JS/Typescript.
 - **Backend:** API REST desenvolvida em Next.js API Routes.
 - **Banco de Dados:** MongoDB utilizado para armazenamento de dados.
+- **Conteinerização** pode rodar em qualquer sistema operacional que suporte Docker (Linux, macOS, Windows).
 
 # Fluxo de Dados
 
@@ -65,13 +66,16 @@ Este documento descreve a arquitetura do sistema, incluindo seus principais comp
 ## Decisões Arquiteturais
 - Optamos pelo MongoDB devido à necessidade de escalabilidade e flexibilidade na estrutura dos dados.
 - A comunicação entre frontend e backend ocorre via REST API, garantindo modularidade.
+- Portabilidade:  aplicação pode rodar em qualquer sistema operacional que suporte Docker (Linux, macOS, Windows), desde que o Docker esteja instalado e configurado corretamente.
+
 
 ## Tecnologias Utilizadas
-| Componente  | Tecnologia       |
-|-------------|-----------------|
-| Frontend    | Next.jS         |
-| Backend     | Next.JS         |
-| Banco de Dados | MongoDB      |
+| Componente     |   Tecnologia    |
+|----------------|-----------------|
+| Frontend       |   Next.jS       |
+| Backend        |   Next.JS       |
+| Banco de Dados |   MongoDB       |
+| Devops         |   Docker        |
 
 ## Considerações Finais
 Essa arquitetura foi escolhida com foco em escalabilidade e facilidade de manutenção. Futuras melhorias podem incluir a adoção de GraphQL ou otimizações na infraestrutura.

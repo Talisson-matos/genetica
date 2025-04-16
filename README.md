@@ -60,6 +60,27 @@ npm start
 npm run dev
 ```
 
+### Executar o projeto com Docker
+
+***Para rodar o projeto usando Docker, siga os passos abaixo:***
+
+Certifique-se de que o Docker está instalado e funcionando no seu sistema. Você pode verificar isso com o comando:
+
+ ```bash
+docker --version
+```
+
+***Construa a imagem Docker do projeto:***
+
+ ```bash
+docker build -t seu_container .
+```
+***Execute o container:***
+
+ ```bash
+docker run -p 3000:3000 seu_container
+```
+
 ## Exemplo de código <a name="exemplos-de-código"></a>
 
 1️⃣ Exemplo de conexão com o banco de dados
@@ -159,6 +180,8 @@ navegação e indicação aonde o usuário esta na página.
 
 - **Banco de Dados:** MongoDB utilizado para armazenamento de dados.
 
+- **Containers:** Docker utilizado para conteinerização.
+
 ##  Contribuição
 
 Ficamos felizes por querer contribuir! Siga os passos abaixo para participar do projeto.
@@ -173,6 +196,7 @@ funcionalidades.
 - Melhorias na documentação ajudam muito – qualquer atualização é válida.
 
 ###  Passos para contribuir
+
 1. **Fork** este repositório e clone para sua máquina local → https://github.com/Talisson-matos/genetica.git .
 
 2. Crie uma nova **branch** para suas alterações: `git checkout -b minha-contribuicao`.
